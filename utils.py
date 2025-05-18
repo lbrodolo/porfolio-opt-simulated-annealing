@@ -16,12 +16,12 @@ def get_market_data(tickers, start='2020-01-01', end='2024-01-01'):
         close_prices = data[['Close']]
         close_prices.columns = tickers[:1]
     else:
-        raise ValueError("Formato dei dati non riconosciuto.")
+        raise ValueError("Format error.")
 
     returns = close_prices.pct_change().dropna()
     mu = returns.mean().values
     cov = returns.cov().values
-    J = -cov  # penalizza correlazioni forti (rischio)
+    J = -cov
     return J, mu, close_prices.columns.tolist()
 
 def energy(s, J, h):
