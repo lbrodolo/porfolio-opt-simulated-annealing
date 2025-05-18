@@ -1,4 +1,4 @@
-# 🧠 Quantum-Inspired Portfolio Optimization with Simulated Annealing
+#Quantum-Inspired Portfolio Optimization with Simulated Annealing
 
 > **A Monte Carlo approach to portfolio optimization using financial data, spin systems, and realistic investment constraints.**
 
