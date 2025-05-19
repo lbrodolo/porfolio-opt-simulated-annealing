@@ -6,7 +6,7 @@
 
 ## 📝 Description
 
-This project explores a novel approach to **portfolio optimization** inspired by **Ising spin models** from statistical physics.
+This project explores a simple approach to **portfolio optimization** inspired by **Ising spin models** from statistical physics.
 
 Each asset in the portfolio is represented by a binary variable (`+1` = Buy, `-1` = Sell), and we optimize a cost function (energy) that balances **expected return** and **risk (covariance)**. The optimization is performed via **Simulated Annealing**, a stochastic algorithm inspired by thermodynamic cooling processes.
 
